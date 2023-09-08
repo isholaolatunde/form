@@ -1,0 +1,21 @@
+.btn {
+  outline: none;
+  border: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.btn--secondary {
+  background-color: var(--white);
+  color: var(--grey);
+  border-radius: 0.4rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 760px) {
+  .btn--secondary {
+    margin-right: 25rem;
+    font-size: 1.6rem;
+  }
+}

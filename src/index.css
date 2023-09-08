@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+
+/* Typography */
+html {
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  /* Primary Colors */
+  --marine-blue: hsl(213, 96%, 18%);
+  --purplish-blue: hsl(243, 100%, 62%);
+  --pastel-blue: hsl(228, 100%, 84%);
+  --light-blue: hsl(206, 94%, 87%);
+  --strawberry-red: hsl(354, 84%, 57%);
+  --red: hsla(354, 84%, 57%, 1);
+
+  /* Neutral */
+  --grey: hsl(231, 11%, 63%);
+  --light-grey: hsl(229, 24%, 87%);
+  --magnolia: hsl(217, 100%, 97%);
+  --alabaster: hsl(231, 100%, 99%);
+  --white: hsl(0, 0%, 100%);
+
+  --ff-ubuntu: "Ubuntu", sans-serif;
+}
+
+body {
+  font-family: var(--ff-ubuntu);
+  margin: 0;
+  padding: 0;
+  font-size: 1.6rem;
+  background-color: var(--magnolia);
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  width: 100%;
+}
+
+::placeholder {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--grey);
+}
+
+h1 {
+  font-size: 2.4rem;
+  color: var(--marine-blue);
+  font-weight: 700;
+  line-height: normal;
+  margin: 0 0 0.9rem 0;
+}
+
+p {
+  font-size: 1.6rem;
+  color: var(--grey);
+  font-weight: 400;
+  line-height: 1.5625rem;
+  margin: 0 0 2.2rem 0;
+}
+
+input[type="checkbox"] {
+  width: 2rem;
+  height: 2rem;
+}
+
+@media screen and (min-width: 769px) {
+  h1 {
+    font-size: 3.2rem;
+    margin: 0 0 1.1rem 0;
+  }
+
+  p {
+    margin: 0 0 3.2rem 0;
+  }
+}

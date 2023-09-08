@@ -1,0 +1,20 @@
+.card {
+  position: relative;
+  width: 34.3rem;
+  height: max-content;
+  border-radius: 0.625rem;
+  background: var(--white, #fff);
+  box-shadow: 0px 25px 40px -20px rgba(0, 0, 0, 0.1);
+  padding: 3.2rem 2.4rem;
+  margin-top: 1rem;
+}
+
+@media screen and (min-width: 760px) {
+  .card {
+    width: 94rem;
+    height: 60rem;
+    min-height: 0;
+    z-index: 1;
+    margin: 0;
+  }
+}

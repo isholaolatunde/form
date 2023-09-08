@@ -1,0 +1,63 @@
+.plan {
+  display: flex;
+  align-items: flex-start;
+  cursor: pointer;
+  border: 1px solid var(--light-grey);
+  border-radius: 0.8rem;
+  padding: 1.4rem 0 1.8rem 1.6rem;
+  margin-bottom: 1.2rem;
+}
+
+/* HIDE RADIO */
+input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.plan-image {
+  margin-right: 1.4rem;
+}
+
+.variation {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--marine-blue);
+  line-height: 1.8rem;
+  margin-bottom: 0.7rem;
+}
+
+.payment {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #9699aa;
+}
+
+.free {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--marine-blue);
+  line-height: 0.2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+.plan-active {
+  background-color: var(--alabaster);
+  border: 1px solid var(--purplish-blue);
+}
+
+@media screen and (min-width: 760px) {
+  .plan {
+    width: 13.8rem;
+    height: 16rem;
+    margin: 0 1.8rem 0 0;
+    flex-direction: column;
+  }
+
+  .plan-image {
+    margin-right: 1.4rem;
+    margin-bottom: 3.9rem;
+  }
+}

@@ -1,0 +1,31 @@
+.btn {
+  outline: none;
+  border: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.btn--primary {
+  background-color: var(--marine-blue);
+  color: var(--white);
+  border-radius: 0.4rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding: 1.2rem 1.6rem;
+}
+
+.btn--primary:hover {
+  background-color: #164a8a;
+}
+
+.active {
+  background-color: var(--purplish-blue);
+}
+
+@media screen and (min-width: 760px) {
+  .btn--primary {
+    width: 12.3rem;
+    height: 4.8rem;
+    font-size: 1.6rem;
+  }
+}

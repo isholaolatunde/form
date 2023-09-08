@@ -1,0 +1,51 @@
+.thanks-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 7.9rem 2.4rem;
+}
+
+.thanks {
+  width: 3.33rem;
+  height: 3.33rem;
+  margin-bottom: 2.4rem;
+}
+
+.thanks__header {
+  color: var(--marine-blue);
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.thanks__text {
+  color: var(--grey);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+@media screen and (min-width: 760px) {
+  .thankyou-section {
+    max-width: 45rem;
+    min-height: 23.8rem;
+    margin-left: 31rem;
+  }
+
+  .thanks {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .thanks__header {
+    font-size: 3.2rem;
+    margin-bottom: 1.4rem;
+  }
+
+  .thanks__text {
+    line-height: 2.5rem;
+  }
+}
